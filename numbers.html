@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/addons/p5.sound.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8" />
+
+</head>
+
+<body>
+  <section class="navigation" id="Game1ScreenNavBar">
+    <nav>
+      <button id="homeButton" onclick="location.href='index.html';" target="_self">Home</button>
+      <button id="numLvl2Button" onclick="location.href='numGameLvl2.html';" target="_self">Level 2</button>
+      <button id="numLvl3Button" onclick="location.href='numGameLvl3.html';" target="_self">Level 3</button>
+      <p>Muhammad Qureshi</p>
+    </nav>
+  </section>
+  <main>
+    <h1 class="scoreBoards" id = "numGameScore">Score: 0</h1>
+    <p>Press the 'next' button to display a random number and the 'speak' button to say what number you think it is! </p>
+    <button id="numbersListenButton">Speak</button>
+    <button id="numbersNextButton">Next</button>
+    <h1>Your number is:</h1>
+    <h1 id = "numberDisplay"></h1>
+    <br>
+    <p id = "diagnosticNumbers"></p>
+  </main>
+  <script src="numbers.js"></script>
+</body>
+
+</html>
