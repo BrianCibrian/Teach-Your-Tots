@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/addons/p5.sound.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8" />
+
+</head>
+
+<body>
+  <section class="navigation" id="Game2ScreenNavBar">
+    <nav>
+      <h2 id="Game2Title" style="font-size: 40px ">Alphaba(t)bies</h2>
+      <button id="homeButton" onclick="location.href='index.html';" target="_self">Home</button>
+      <button id="lvl2Button" onclick="location.href='Level2.html';" target="_self">Level 2</button>
+      <button id="lvl3Button" onclick="location.href='Level3.html';" target="_self">Level 3</button>
+
+      <p>Tanish Parsana</p>
+    </nav>
+  </section>
+  <h1 class="scoreBoards" id="alphScore">Score: 0</h1>
+
+  <t3 style="font-size: 20px "> Press the 'Next' button for a new letter and the 'speak' button to say that letter!
+  </t3>
+  <main>
+    <button id="alphabetListenButon">Speak</button>
+    <button id="alphabetNextButton">Next</button>
+    <h1>Your letter is:</h1>
+    <h1 id="letterDisplay"></h1>
+    <p id="diagnosticAlphabet"></p>
+  </main>
+  <script src="alphabet.js"></script>
+  <script src="alphabetCanvas.js"></script>
+</body>
+
+</html>
